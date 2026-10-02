@@ -230,6 +230,16 @@ Contributions, typo fixes, and community translations are warmly welcome!
 
 ---
 
+## ✍️ Author
+
+**Mamunur Rashid** ([@rimonmath](https://github.com/rimonmath))
+
+- **Creator & Author**: Creator of *Crafting Rust*, passionate about systems programming, clean backend architectures, and practical developer education.
+- **GitHub**: [@rimonmath](https://github.com/rimonmath)
+- **Email**: [rimonmath@gmail.com](mailto:rimonmath@gmail.com)
+
+---
+
 ## 📄 License
 
 This book and all accompanying code examples are open source and available under the [MIT License](LICENSE).
