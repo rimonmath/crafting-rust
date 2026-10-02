@@ -5,8 +5,13 @@ export default defineConfig({
   title: "Crafting Rust",
   description:
     "From First Principles to a Production-Ready Engine — A hands-on, practical Rust book",
-  lastUpdated: false,
   cleanUrls: true,
+
+  head: [
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/crafting-rust/favicon.svg" }],
+    ["link", { rel: "alternate icon", type: "image/x-icon", href: "/crafting-rust/favicon.ico" }],
+    ["link", { rel: "apple-touch-icon", href: "/crafting-rust/apple-touch-icon.png" }],
+  ],
 
   locales: {
     root: {
@@ -14,6 +19,7 @@ export default defineConfig({
       lang: "en",
       link: "/en/",
       themeConfig: {
+        logo: "/favicon.svg",
         nav: [
           { text: "Home", link: "/en/" },
           { text: "Roadmap", link: "/en/roadmap" },
@@ -186,6 +192,7 @@ export default defineConfig({
       lang: "bn",
       link: "/bn/",
       themeConfig: {
+        logo: "/favicon.svg",
         nav: [
           { text: "হোম", link: "/bn/" },
           { text: "রোডম্যাপ", link: "/bn/roadmap" },
