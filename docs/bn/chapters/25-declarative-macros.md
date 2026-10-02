@@ -129,7 +129,7 @@ macro_rules! sum_items {
 
 ## মিনিস্টোরের বাস্তব ডোমেন ম্যাক্রোসমূহ
 
-চলুন দেখি মিনিস্টোরের [`src/macros.rs`](ministore/src/macros.rs) ফাইলে আমরা কী কী ম্যাক্রো তৈরি করেছি:
+চলুন দেখি মিনিস্টোরের [`src/macros.rs`](https://github.com/rimonmath/crafting-rust/blob/main/ministore/src/macros.rs) ফাইলে আমরা কী কী ম্যাক্রো তৈরি করেছি:
 
 ### ১. `product!` ম্যাক্রো: সহজ অবজেক্ট নির্মাণ ও এনাম শর্টহ্যান্ড
 

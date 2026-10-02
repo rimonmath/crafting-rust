@@ -130,7 +130,7 @@ During expansion, the block inside `$( ... )*` is repeated for each matched elem
 
 ## Practical Domain Macros in MiniStore
 
-Let's examine the macros implemented in MiniStore's [`src/macros.rs`](crafting-rust/ministore/src/macros.rs).
+Let's examine the macros implemented in MiniStore's [`src/macros.rs`](https://github.com/rimonmath/crafting-rust/blob/main/ministore/src/macros.rs).
 
 ### 1. The `product!` Macro: Flexible Construction & Enum Shorthand
 

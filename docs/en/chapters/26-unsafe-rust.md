@@ -102,7 +102,7 @@ unsafe {
 
 The golden rule of Rust systems programming is: **Never expose `unsafe` to your callers if you can encapsulate it in a safe API.**
 
-In MiniStore, we need a high-performance contiguous byte buffer for barcode scanning, receipt printing, and high-throughput serialization: [`RawBarcodeBuffer`](crafting-rust/ministore/src/unsafe_utils.rs).
+In MiniStore, we need a high-performance contiguous byte buffer for barcode scanning, receipt printing, and high-throughput serialization: [`RawBarcodeBuffer`](https://github.com/rimonmath/crafting-rust/blob/main/ministore/src/unsafe_utils.rs).
 
 ### 1. Structure Definition & `NonNull`
 

@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base: "/crafting-rust",
+  base: "/crafting-rust/",
   title: "Crafting Rust",
   description:
     "From First Principles to a Production-Ready Engine — A hands-on, practical Rust book",
