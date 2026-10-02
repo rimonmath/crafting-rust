@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# VitePress build outputs and cache
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Rust build artifacts
+target/
+**/*.rs.bk
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
